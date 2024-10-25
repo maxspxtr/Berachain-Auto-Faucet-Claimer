@@ -46,25 +46,22 @@ Berachain Auto Faucet Claimer is a Python-based automation tool designed to stre
 
 ## Scheduler Setup
 
-The script will automatically claim faucet rewards at scheduled intervals and optionally post updates.
-
-Scheduler Setup
 For Continuous Operation:
+- Windows: Use Task Scheduler to run the script at intervals.
+- Linux/macOS: Set up a cron job for periodic claims.
 
-Windows: Use Task Scheduler to run the script at intervals.
-Linux/macOS: Set up a cron job for periodic claims.
-Example (Windows Task Scheduler)
+**Example (Windows Task Scheduler)**
 Open Task Scheduler, create a new task.
 Set the task to run `python faucet_claim.py` at an 8-hour, 10-minute interval.
 Choose “Run whether user is logged on or not” to keep it running in the background.
 
 
-Example (Linux/macOS Cron Job)
-1. **Open the crontab editor:**
+**Example (Linux/macOS Cron Job)**
+1. Open the crontab editor:
    ```bash
    crontab -e
    ```
-2. **Add the following line to run the script every 8 hours and 10 minutes:**
+2. Add the following line to run the script every 8 hours and 10 minutes:
 
    ```bash
    */490 * * * * /usr/bin/python3 /path/to/BerachainAutoFaucetClaimer/faucet_claim.py
