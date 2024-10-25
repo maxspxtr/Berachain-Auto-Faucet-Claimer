@@ -27,9 +27,9 @@ Berachain Auto Faucet Claimer is a Python-based automation tool designed to stre
 
 Requires Python 3.6 or higher and the requests library.
 
-```bash  
-pip install -r requirements.txt
-```
+   ```bash  
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
@@ -65,9 +65,9 @@ Example (Linux/macOS Cron Job)
    ```
 2. **Add the following line to run the script every 8 hours and 10 minutes:**
 
-```bash
-*/490 * * * * /usr/bin/python3 /path/to/BerachainAutoFaucetClaimer/faucet_claim.py
-```
+   ```bash
+   */490 * * * * /usr/bin/python3 /path/to/BerachainAutoFaucetClaimer/faucet_claim.py
+   ```
 
 # Contributing
 
