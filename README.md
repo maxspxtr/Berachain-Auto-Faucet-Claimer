@@ -19,7 +19,7 @@ Berachain Auto Faucet Claimer is a Python-based automation tool designed to stre
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/YourUsername/BerachainAutoFaucetClaimer.git
+      git clone https://github.com/maxspxtr/BerachainAutoFaucetClaimer.git
    cd BerachainAutoFaucetClaimer
 
 
