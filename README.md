@@ -25,7 +25,8 @@ Berachain Auto Faucet Claimer is a Python-based automation tool designed to stre
 
 2. **Install Dependencies:**
 
-Requires Python 3.6 or higher and the requests library.
+- Requires Python 3.6 or higher. 
+- You will need to install the `requests` library. This can be done easily with pip:
 
    ```bash  
       pip install -r requirements.txt
@@ -39,9 +40,9 @@ Requires Python 3.6 or higher and the requests library.
    WALLET_ADDRESS = "0xYourWalletAddress"
    
 2.  **Run the Script:**
-  ```bash
-   python faucet_claim.py
- ```
+     ```bash
+      python faucet_claim.py
+    ```
 
 ## Scheduler Setup
 
