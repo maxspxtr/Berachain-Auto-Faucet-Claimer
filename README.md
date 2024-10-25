@@ -27,9 +27,9 @@ Berachain Auto Faucet Claimer is a Python-based automation tool designed to stre
 
 Requires Python 3.6 or higher and the requests library.
 
-      ```bash  
+   ```bash  
       pip install -r requirements.txt
-      ```
+   ```
 
 ## Usage
 
